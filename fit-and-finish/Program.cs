@@ -7,7 +7,10 @@ namespace fit_and_finish
     {
         public String Location { get; init; }
 
-        
+        public void AddObservation(WeatherObservation observation) 
+        {
+            
+        }
     }
 
     class WeatherObservation

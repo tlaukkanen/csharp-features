@@ -1,5 +1,18 @@
 ﻿using System;
 
+/*
+https://devblogs.microsoft.com/dotnet/c-9-0-on-the-record/
+
+A record is still a class, but the record keyword imbues it with 
+several additional value-like behaviors. Generally speaking, 
+records are defined by their contents, not their identity. 
+In this regard, records are much closer to structs, but records 
+are still reference types.
+
+While records can be mutable, they are primarily built for better 
+supporting immutable data models.
+*/
+
 namespace records
 {
     public record Person

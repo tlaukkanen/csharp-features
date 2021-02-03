@@ -2,26 +2,12 @@
 
 Highlights of latest C# 9 and 8 features
 
-# Records
+* https://www.c-sharpcorner.com/article/c-sharp-8-features/
+* Records
+  * https://devblogs.microsoft.com/dotnet/c-9-0-on-the-record/
+* Relational pattern matching
+  * https://dotnetcoretutorials.com/2020/08/10/relational-pattern-matching-in-c-9/
+* Top level statements
+  * https://www.thomasclaudiushuber.com/2020/08/18/c-9-top-level-statements-or-should-i-say-hey-wheres-the-main-method/
 
-reference types with value-based equality semantics and non-destructive mutation support by a new *with* expression.
-
-```cs --source-file ./records/Program.cs --project ./records/records.csproj
-```
-
-# Relational Pattern Matching
-
-Extends pattern matching capabilities to relational operators for comparative evaluations and expressions, including logical patterns - new keywords and, or, and not.
-
-```cs --source-file ./records/Program.cs --project ./records/records.csproj
-```
-
-# Top Level Statements
-
-```cs --source-file ./top-level-statements/Program.cs --project ./top-level-statements/top-level-statements.csproj
-```
-
-# Fit
-
-```cs --source-file ./fit-and-finish/Program.cs --project ./fit-and-finish/fit-and-finish.csproj
-```
+  
