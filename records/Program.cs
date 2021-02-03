@@ -18,7 +18,7 @@ namespace records
     public record Person
     {
         public string LastName { get; }
-        public string FirstName { get; }
+        public string FirstName { get; init; }
 
         public Person(string first, string last) => (FirstName, LastName) = (first, last);
     }
@@ -37,7 +37,12 @@ namespace records
             var person = new Person("Bill", "Wagner");
             var student = new Student("Bill", "Wagner", 11);
 
+            var jill = person with { FirstName = "Jill"};
+            var bill = person with { FirstName = "Bill"};
+
             Console.WriteLine(student == person); // false
+            Console.WriteLine(jill);
+            Console.WriteLine(person == bill);
         }
     }
 }

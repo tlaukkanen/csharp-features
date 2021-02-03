@@ -24,8 +24,10 @@ namespace fit_and_finish
         static void Main(string[] args)
         {
             List<WeatherObservation> observations = new();
-
             Console.WriteLine("Observations: " + observations.Count);
+
+            WeatherStation station = new() { Location = "Tampere" };
+            station.AddObservation(new(){ Temperature=10 });
         }
     }
 }
